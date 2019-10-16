@@ -133,23 +133,119 @@
               <p> Dashboard </p>
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
+          <li class="nav-item ">
+            <a class="nav-link" data-toggle="collapse" href="#members">
               <i class="material-icons">people</i>
-              <p> Members </p>
+              <p> Members
+                <b class="caret"></b>
+              </p>
             </a>
+            <div class="collapse" id="members">
+              <ul class="nav">
+                <li class="nav-item ">
+                  <a class="nav-link" href="activemembers.html">
+                    <span class="sidebar-mini"> AM </span>
+                    <span class="sidebar-normal"> Active Members </span>
+                  </a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="upcomingmembers.html">
+                    <span class="sidebar-mini"> UM </span>
+                    <span class="sidebar-normal"> Upcoming Members </span>
+                  </a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="uploadbmembers.html">
+                    <span class="sidebar-mini"> BMU </span>
+                    <span class="sidebar-normal"> Batch Members Upload </span>
+                  </a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="uploadsmember.html">
+                    <span class="sidebar-mini"> SMU </span>
+                    <span class="sidebar-normal"> Single Member Upload </span>
+                  </a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="../pages/register.html">
+                    <span class="sidebar-mini"> RP </span>
+                    <span class="sidebar-normal"> Register Page </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
+          <li class="nav-item ">
+            <a class="nav-link" data-toggle="collapse" href="#attendance">
               <i class="material-icons">equalizer</i>
-              <p> Attendance </p>
+              <p> Attendance
+                <b class="caret"></b>
+              </p>
             </a>
+            <div class="collapse" id="attendance">
+              <ul class="nav">
+                <li class="nav-item ">
+                  <a class="nav-link" href="takeattendance.html">
+                    <span class="sidebar-mini"> TA </span>
+                    <span class="sidebar-normal"> Take Attendance </span>
+                  </a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="viewattendance.html">
+                    <span class="sidebar-mini"> VA </span>
+                    <span class="sidebar-normal"> View Attendance </span>
+                  </a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="firsttimers.html">
+                    <span class="sidebar-mini"> FT </span>
+                    <span class="sidebar-normal"> First Timers </span>
+                  </a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="showservices.html">
+                    <span class="sidebar-mini"> SS </span>
+                    <span class="sidebar-normal"> Show Services </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
+          <li class="nav-item ">
+            <a class="nav-link" data-toggle="collapse" href="#communication">
               <i class="material-icons">perm_phone_msg</i>
-              <p> communication </p>
+              <p> Communication
+                <b class="caret"></b>
+              </p>
             </a>
+            <div class="collapse" id="communication">
+              <ul class="nav">
+                <li class="nav-item ">
+                  <a class="nav-link" href="creategroups.html">
+                    <span class="sidebar-mini"> CP </span>
+                    <span class="sidebar-normal"> Create Personnel </span>
+                  </a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="viewpersonnel.html">
+                    <span class="sidebar-mini"> VP </span>
+                    <span class="sidebar-normal"> View Personnel </span>
+                  </a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="creategroups.html">
+                    <span class="sidebar-mini"> CG </span>
+                    <span class="sidebar-normal"> Create Groups </span>
+                  </a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="calllists.html">
+                    <span class="sidebar-mini"> CL </span>
+                    <span class="sidebar-normal"> Call Lists </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="login.html">
@@ -425,6 +521,7 @@
                       <i class="material-icons">assignment</i>
                     </div>
                     <h4 class="card-title ">Attendance</h4>
+                    <small class="card-title">Attendees and Absentees from last 6 services</small>
                   </div>
                   <div class="card-body">
                     <div class="table-responsive">
